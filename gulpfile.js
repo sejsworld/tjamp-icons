@@ -8,7 +8,13 @@ var fontName = 'tjamp-icons';
 gulp.task('default', function() {
 
     return gulp.src('svg/*.svg')
-    .pipe(svgo())
+    .pipe(svgo({
+        plugins : [
+            { removeStyleElement  : true },
+            { removeAttrs: {attrs: '(fill.*|stroke.*|transform.*)'} }
+        ]
+    }
+    ))
     .pipe(svgSprite())
     .pipe(gulp.dest("dist"));
 });
