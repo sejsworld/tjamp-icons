@@ -1,0 +1,27 @@
+{
+  "name": "tjamp-icons",
+  "version": "1.0.0",
+  "description": "Icon font for tjamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sejsworld/tjamp-icons.git"
+  },
+  "author": "Bjørn Nyborg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sejsworld/tjamp-icons/issues"
+  },
+  "homepage": "https://github.com/sejsworld/tjamp-icons#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "gulp": "^3.9.1",
+    "gulp-consolidate": "^0.2.0"
+  },
+  "devDependencies": {
+    "gulp-iconfont": "^9.1.0"
+  }
+}
