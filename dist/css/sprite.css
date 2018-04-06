@@ -1,5 +1,5 @@
 .icon {
-    font-size: 10px;
+    font-size: 32px;
 }
 
 .icon:before {
@@ -8,7 +8,7 @@
     display: inline-block;
     background-image: url("../svg/sprite.svg");
     background-repeat: no-repeat;
-    background-size: 5.669em 39.9em;
+    background-size: 1em 7em;
 }
 
 .no-svg .icon:before {
@@ -19,62 +19,62 @@
 
   .icon.cycle:before {
       background-position: 0em 0em;
-      width: 5.669em;
-      height: 5.669em;
+      width: 1em;
+      height: 1em;
   }
 
 
 
 
   .icon.hero:before {
-      background-position: 0em -5.7em;
-      width: 5.669em;
-      height: 5.669em;
+      background-position: 0em -1em;
+      width: 1em;
+      height: 1em;
   }
 
 
 
 
   .icon.minutes:before {
-      background-position: 0em -11.4em;
-      width: 5.669em;
-      height: 5.669em;
+      background-position: 0em -2em;
+      width: 1em;
+      height: 1em;
   }
 
 
 
 
   .icon.organizer:before {
-      background-position: 0em -17.1em;
-      width: 5.669em;
-      height: 5.669em;
+      background-position: 0em -3em;
+      width: 1em;
+      height: 1em;
   }
 
 
 
 
   .icon.run:before {
-      background-position: 0em -22.8em;
-      width: 5.669em;
-      height: 5.669em;
+      background-position: 0em -4em;
+      width: 1em;
+      height: 1em;
   }
 
 
 
 
   .icon.tjamp:before {
-      background-position: 0em -28.5em;
-      width: 5.669em;
-      height: 5.669em;
+      background-position: 0em -5em;
+      width: 1em;
+      height: 1em;
   }
 
 
 
 
   .icon.walk:before {
-      background-position: 0em -34.2em;
-      width: 5.669em;
-      height: 5.669em;
+      background-position: 0em -6em;
+      width: 1em;
+      height: 1em;
   }
 
 

@@ -15,6 +15,8 @@ gulp.task('default', function() {
         ]
     }
     ))
-    .pipe(svgSprite())
+    .pipe(svgSprite({
+        baseSize: 32
+    }))
     .pipe(gulp.dest("dist"));
 });
