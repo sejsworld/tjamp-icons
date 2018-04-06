@@ -17,10 +17,7 @@ gulp.task('default', function() {
     ))
     .pipe(svgSprite({
         baseSize: 32,
-        mode: "symbols",
-        svg: {
-            sprite: "tjamp-icons.svg"
-        }
+        mode: "symbols"
     }))
     .pipe(gulp.dest("dist"));
 });
