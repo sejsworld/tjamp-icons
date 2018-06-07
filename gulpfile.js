@@ -2,8 +2,8 @@ var gulp =      require('gulp');
 var svgSprite = require("gulp-svg-sprites");
 var svgo =      require('gulp-svgo');
 
-var fontName = 'tjamp-icons';
 
+var fontName = 'tjamp-icons';
 
 gulp.task('default', function() {
 

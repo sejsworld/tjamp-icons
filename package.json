@@ -1,6 +1,6 @@
 {
   "name": "tjamp-icons",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Icon font for tjamp",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/sejsworld/tjamp-icons#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-svg-sprites": "^4.1.2",
     "gulp-svgo": "^1.4.0"
   }
