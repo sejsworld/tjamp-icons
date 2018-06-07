@@ -18,5 +18,6 @@ Use artboards for each icon
 10. Drag config.json into `dist`
 
 #Publishing
-1. Update version number
-2. `npm publish`
+1. Run gulp
+2. Update version number
+3. `npm publish`
