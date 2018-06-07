@@ -11,5 +11,12 @@ Use artboards for each icon
 3. DO NOT tick `Create subfolders`
 4. Set formats "SVG"
 5. Export and Replace
+6. Upload SVG icons to fontello.com
+7. Select and download all
+8. Extract downloaded zip
+9. Drag fonts into `dist/fonts`
+10. Drag config.json into `dist`
 
 #Publishing
+1. Update version number
+2. `npm publish`
