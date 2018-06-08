@@ -21,3 +21,8 @@ Use artboards for each icon
 1. Run gulp
 2. Update version number
 3. `npm publish`
+
+#Installing in app
+- Install new package
+- Replace android fonts in `/android/app/src/main/assets/fonts`
+- Rebuild app
