@@ -2,8 +2,8 @@
 npm package for custom tjamp icons
 
 # Editing icons
-Open the icons.ai and edit away in illustrator
-Use artboards for each icon
+1. Open the icons.ai and edit away in illustrator
+2. Use artboards for each icon
 
 ## Exporting icons
 1. In Illustrator: Select `File -> Export -> Export for Screens`
@@ -18,7 +18,7 @@ Use artboards for each icon
 10. Drag config.json into `dist`
 
 #Publishing
-1. Run gulp
+1. Run `gulp`
 2. Update version number
 3. `npm publish`
 
